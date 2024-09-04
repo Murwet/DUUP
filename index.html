@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - DUUP Webbyrå</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/UUP.png" rel="icon">
+  <link href="assets/img/UUP.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: DUUP
+  * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/UUP.png" alt="logo" class="logo_img"> 
+        <!--<h1 class="sitename">DUUP Webbyrå</h1> -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Hem</a></li>
+          <li><a href="#about">Om oss</a></li>
+          <li><a href="#services">Tjänster</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Teamet</a></li>
+          <li><a href="#pricing">Prissättning</a></li>
+          <li class="dropdown"><a href="#"><span>Mer</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Underkategori 1</a></li>
+              <li class="dropdown"><a href="#"><span>Djupare meny</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Djupare meny 1</a></li>
+                  <li><a href="#">Djupare meny 2</a></li>
+                  <li><a href="#">Djupare meny 3</a></li>
+                  <li><a href="#">Djupare meny 4</a></li>
+                  <li><a href="#">Djupare meny 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Underkategori 2</a></li>
+              <li><a href="#">Underkategori 3</a></li>
+              <li><a href="#">Underkategori 4</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Kontakt</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+      <a class="btn-getstarted" href="#about">Kom igång</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <h1>DUUP Webbyrå</h1>
+            <p>Vi är ett team av begåvade designers som skapar webbplatser med Bootstrap</p>
+            <div class="d-flex">
+              <a href="#about" class="btn-get-started">Kom igång</a>
+              <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8"
+                class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Se
+                  Video</span></a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="DUUP Webbyrå">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section light-background">
+
+      <div class="container" data-aos="zoom-in">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 120
+                },
+                "1200": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt="Kund 1"></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt="Kund 2"></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt="Kund 3"></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt="Kund 4"></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt="Kund 5"></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt="Kund 6"></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt="Kund 7"></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt="Kund 8"></div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Om Oss</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              DUUP Webbyrå är en ledande aktör inom webbdesign och utveckling. Vi erbjuder skräddarsydda lösningar för
+              att
+              hjälpa företag att växa online.
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-circle"></i> <span>Professionell design och utveckling av webbplatser.</span>
+              </li>
+              <li><i class="bi bi-check2-circle"></i> <span>Modern teknik för att optimera din online-närvaro.</span>
+              </li>
+              <li><i class="bi bi-check2-circle"></i> <span>Personlig service och support genom hela processen.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <p>Vi på DUUP Webbyrå är dedikerade till att skapa användarvänliga och visuellt tilltalande webbplatser som
+              hjälper våra kunder att nå sina mål. Vår expertis inom webbdesign och utveckling garanterar att varje
+              projekt blir framgångsrikt och uppfyller våra kunders krav.</p>
+            <a href="#" class="read-more"><span> Läs mer</span><i class="bi bi-arrow-right"></i></a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="section why-us light-background" data-builder="section">
+
+      <div class="container-fluid">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+
+            <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
+              <h3><span>Vi erbjuder </span><strong>innovativa och effektiva webblösningar</strong></h3>
+              <p>
+                Vårt team på DUUP Webbyrå har lång erfarenhet inom webbdesign och utveckling. Vi använder den senaste
+                tekniken för att säkerställa att dina webbplatser är både funktionella och estetiskt tilltalande.
+              </p>
+            </div>
+
+            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="faq-item faq-active">
+
+                <h3><span>01</span> Vad gör DUUP Webbyrå unik?</h3>
+                <div class="faq-content">
+                  <p>Vi erbjuder skräddarsydda lösningar för att möta varje kunds unika behov. Vårt fokus ligger på att
+                    skapa webbplatser som är både användarvänliga och tekniskt avancerade.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>02</span> Vilka tjänster erbjuder ni?</h3>
+                <div class="faq-content">
+                  <p>Vi erbjuder ett brett utbud av tjänster, inklusive webbdesign, webbutveckling, SEO, och underhåll.
+                    Vårt
+                    mål är att hjälpa företag att bygga en stark online-närvaro och nå sina affärsmål.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>03</span> Hur kan jag börja arbeta med er?</h3>
+                <div class="faq-content">
+                  <p>Kontakta oss via vårt kontaktformulär eller ring oss för att diskutera ditt projekt. Vi kommer att
+                    gå igenom dina behov och skapa en plan för att leverera en lösning som passar dig.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 order-1 order-lg-2 why-us-img">
+            <img src="assets/img/why-us.png" class="img-fluid" alt="Varför välja oss" data-aos="zoom-in"
+              data-aos-delay="100">
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Why Us Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+
+          <div class="col-lg-6 d-flex align-items-center">
+            <img src="assets/img/skills.png" class="img-fluid" alt="Färdigheter">
+          </div>
+
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+
+            <h3>Våra Kompetenser och Färdigheter</h3>
+            <p class="fst-italic">
+              Vi på DUUP Webbyrå är experter inom webbdesign och utveckling, med en passion för att skapa funktionella
+              och attraktiva webblösningar.
+            </p>
+
+            <div class="skills-content skills-animation">
+
+              <div class="progress">
+                <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>Photoshop</span> <i class="val">55%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div><!-- End Skills Item -->
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Tjänster</h2>
+        <p>Vi erbjuder ett brett utbud av tjänster för att möta dina behov och hjälpa dig att lyckas online.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-activity icon"></i></div>
+              <h4><a href="" class="stretched-link">Webbdesign</a></h4>
+              <p>Vi skapar moderna och användarvänliga webbplatser som effektivt representerar ditt varumärke.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+              <h4><a href="" class="stretched-link">Webbutveckling</a></h4>
+              <p>Vi utvecklar skräddarsydda webblösningar som är tekniskt avancerade och funktionella.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+              <h4><a href="" class="stretched-link">SEO-Optimering</a></h4>
+              <p>Vi hjälper dig att förbättra din webbplats synlighet i sökmotorer för att driva mer trafik.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+              <h4><a href="" class="stretched-link">Underhåll & Support</a></h4>
+              <p>Vi erbjuder löpande underhåll och support för att säkerställa att din webbplats alltid är i toppskick.
+              </p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <img src="assets/img/cta-bg.jpg" alt="Call to Action Bakgrund">
+
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3>Ta Kontakt Med Oss</h3>
+            <p>Vi på DUUP är redo att hjälpa dig med dina webbprojekt. Kontakta oss för att ta reda på hur vi kan bidra
+              till din framgång online.</p>
+          </div>
+          <div class="col-xl-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">Kontakta Oss</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Vårt Arbete</h2>
+        <p>Upptäck några av våra senaste projekt och se hur vi har hjälpt våra kunder att nå sina mål online.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">Alla</li>
+            <li data-filter=".filter-app">Appar</li>
+            <li data-filter=".filter-product">Produkter</li>
+            <li data-filter=".filter-branding">Varumärken</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="App 1">
+              <div class="portfolio-info">
+                <h4>App 1</h4>
+                <p>En beskrivning av app-projektet</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1"
+                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Fler Detaljer" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="Produkt 1">
+              <div class="portfolio-info">
+                <h4>Produkt 1</h4>
+                <p>En beskrivning av produkt-projektet</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" title="Produkt 1"
+                  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Fler Detaljer" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="Branding 1">
+              <div class="portfolio-info">
+                <h4>Branding 1</h4>
+                <p>En beskrivning av branding-projektet</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1"
+                  data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Fler Detaljer" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" class="img-fluid" alt="App 2">
+              <div class="portfolio-info">
+                <h4>App 2</h4>
+                <p>En beskrivning av app-projektet</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2"
+                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Fler Detaljer" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" class="img-fluid" alt="Produkt 2">
+              <div class="portfolio-info">
+                <h4>Produkt 2</h4>
+                <p>En beskrivning av produkt-projektet</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" title="Produkt 2"
+                  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Fler Detaljer" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" class="img-fluid" alt="Branding 2">
+              <div class="portfolio-info">
+                <h4>Branding 2</h4>
+                <p>En beskrivning av branding-projektet</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" title="Branding 2"
+                  data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Fler Detaljer" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" class="img-fluid" alt="App 3">
+              <div class="portfolio-info">
+                <h4>App 3</h4>
+                <p>En beskrivning av app-projektet</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3"
+                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Fler Detaljer" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" class="img-fluid" alt="Produkt 3">
+              <div class="portfolio-info">
+                <h4>Produkt 3</h4>
+                <p>En beskrivning av produkt-projektet</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" title="Produkt 3"
+                  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Fler Detaljer" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" class="img-fluid" alt="Branding 3">
+              <div class="portfolio-info">
+                <h4>Branding 3</h4>
+                <p>En beskrivning av branding-projektet</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" title="Branding 3"
+                  data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="Fler Detaljer" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Vårt Team</h2>
+        <p>Här är våra fantastiska teammedlemmar som arbetar hårt för att leverera högkvalitativa lösningar.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt="Walter White"></div>
+              <div class="member-info">
+                <h4>Walter White</h4>
+                <span>VD</span>
+                <p>Ansvarar för företagets övergripande strategi och ledarskap.</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt="Sarah Jhonson"></div>
+              <div class="member-info">
+                <h4>Sarah Jhonson</h4>
+                <span>Produktchef</span>
+                <p>Övervakar produktutveckling och hantering.</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt="William Anderson"></div>
+              <div class="member-info">
+                <h4>William Anderson</h4>
+                <span>CTO</span>
+                <p>Ansvarar för företagets tekniska strategi och innovation.</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt="Amanda Jepson"></div>
+              <div class="member-info">
+                <h4>Amanda Jepson</h4>
+                <span>Redovisningsekonom</span>
+                <p>Hantera företagets ekonomi och bokföring.</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
+
+    <!-- Prissättning Sektion -->
+    <section id="pricing" class="pricing section light-background">
+
+      <!-- Sektion Titel -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Prissättning</h2>
+        <p>Upptäck våra prisalternativ och hitta det som passar bäst för dig.</p>
+      </div><!-- Slut Sektion Titel -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="pricing-item">
+              <h3>Gratis Plan</h3>
+              <h4><sup>$</sup>0<span> / månad</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Grundläggande funktioner</span></li>
+                <li><i class="bi bi-check"></i> <span>Begränsad support</span></li>
+                <li><i class="bi bi-check"></i> <span>Begränsad lagring</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Avancerade funktioner</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Prioriterad support</span></li>
+              </ul>
+              <a href="#" class="buy-btn">Köp Nu</a>
+            </div>
+          </div><!-- Slut Prissättning Objekt -->
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="pricing-item featured">
+              <h3>Affärsplan</h3>
+              <h4><sup>$</sup>29<span> / månad</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Alla grundläggande funktioner</span></li>
+                <li><i class="bi bi-check"></i> <span>Utökad lagring</span></li>
+                <li><i class="bi bi-check"></i> <span>Utökad support</span></li>
+                <li><i class="bi bi-check"></i> <span>Avancerade funktioner</span></li>
+                <li><i class="bi bi-check"></i> <span>Prioriterad support</span></li>
+              </ul>
+              <a href="#" class="buy-btn">Köp Nu</a>
+            </div>
+          </div><!-- Slut Prissättning Objekt -->
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="pricing-item">
+              <h3>Utvecklarplan</h3>
+              <h4><sup>$</sup>49<span> / månad</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Alla funktioner inkluderade</span></li>
+                <li><i class="bi bi-check"></i> <span>Oändlig lagring</span></li>
+                <li><i class="bi bi-check"></i> <span>Premium support</span></li>
+                <li><i class="bi bi-check"></i> <span>Avancerade analysverktyg</span></li>
+                <li><i class="bi bi-check"></i> <span>Prioriterad support</span></li>
+              </ul>
+              <a href="#" class="buy-btn">Köp Nu</a>
+            </div>
+          </div><!-- Slut Prissättning Objekt -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Prissättning Sektion -->
+
+    /*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Omdömen</h2>
+        <p>Se vad våra nöjda kunder säger om vår webbyrå och våra tjänster.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 5000
+          },
+          "slidesPerView": "auto",
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          }
+        }
+      </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img"
+                  alt="Bild på Anna Svensson">
+                <h3>Anna Svensson</h3>
+                <h4>Marknadschef</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>”DUUP hjälpte oss att förnya vår webbplats med en modern och användarvänlig design. Vi är
+                    oerhört nöjda med resultatet och hur smidigt processen gick.”</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img"
+                  alt="Bild på Erik Johansson">
+                <h3>Erik Johansson</h3>
+                <h4>Grundare</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>”Vi anlitade DUUP för att utveckla vår nya e-handelsplattform. Deras expertis och engagemang var
+                    avgörande för projektets framgång. Rekommenderas varmt!”</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img"
+                  alt="Bild på Maria Nilsson">
+                <h3>Maria Nilsson</h3>
+                <h4>Webbdesigner</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>”Jag är mycket imponerad av DUUP:s kreativitet och professionalism. De lyssnade på våra behov
+                    och levererade en webbplats som verkligen lyfter vårt varumärke.”</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+    <div class="swiper-slide">
+      <div class="testimonial-item">
+        <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+        <h3>Jena Karlis</h3>
+        <h4>Store Owner</h4>
+        <div class="stars">
+          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+            class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+        </div>
+        <p>
+          <i class="bi bi-quote quote-icon-left"></i>
+          <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis
+            minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+          <i class="bi bi-quote quote-icon-right"></i>
+        </p>
+      </div>
+    </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="Bild på Jena Karlis">
+                <h3>Jena Karlis</h3>
+                <h4>Butiksägare</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>”DUUP har verkligen överträffat våra förväntningar. Deras insikter och expertis har hjälpt oss
+                    att förbättra vår webbnärvaro avsevärt. Vi ser fram emot att fortsätta samarbetet!”</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- FAQ 2 Section -->
+    <section id="faq-2" class="faq-2 section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Vanliga Frågor</h2>
+        <p>Här svarar vi på några av de vanligaste frågor vi får. Har du fler frågor är du alltid välkommen att kontakta
+          oss!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-10">
+
+            <div class="faq-container">
+
+              <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="200">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Vad är era främsta tjänster?</h3>
+                <div class="faq-content">
+                  <p>Vi erbjuder ett brett utbud av tjänster inom webbutveckling, design, digital marknadsföring och
+                    SEO. Vårt mål är att hjälpa ditt företag att nå sina mål genom effektiva och skräddarsydda
+                    lösningar.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Hur lång tid tar det att färdigställa ett projekt?</h3>
+                <div class="faq-content">
+                  <p>Tiden för att färdigställa ett projekt varierar beroende på omfattningen och komplexiteten av
+                    projektet. Generellt sett strävar vi efter att leverera våra projekt inom 4-6 veckor efter att alla
+                    krav är klara.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Erbjuder ni support efter att projektet är färdigt?</h3>
+                <div class="faq-content">
+                  <p>Ja, vi erbjuder support och underhåll efter att projektet är färdigt. Vi erbjuder olika
+                    supportpaket som kan anpassas efter dina behov, så att du alltid kan få hjälp när du behöver det.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Vilka betalningsalternativ erbjuder ni?</h3>
+                <div class="faq-content">
+                  <p>Vi erbjuder flera olika betalningsalternativ, inklusive banköverföring, kreditkort och PayPal.
+                    Betalningen kan göras i en eller flera delbetalningar beroende på överenskommelse.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Kan jag få en offert innan vi påbörjar projektet?</h3>
+                <div class="faq-content">
+                  <p>Absolut! Vi erbjuder kostnadsfria offertar baserat på dina specifika behov och krav. Kontakta oss
+                    så att vi kan diskutera ditt projekt och ge dig en detaljerad offert.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Faq 2 Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Kontakta Oss</h2>
+        <p>Har du några frågor eller behöver du hjälp med ditt projekt? Tveka inte att höra av dig till oss!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Adress</h3>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Ring Oss</h3>
+                  <p>+1 5589 55488 55</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email</h3>
+                  <p>info@duup.se</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+                frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+              data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Ditt Namn</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Din E-post</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Ämne</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Meddelande</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Laddar</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Ditt meddelande har skickats. Tack!</div>
+
+                  <button type="submit">Skicka Meddelande</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+
+    <footer id="footer" class="footer">
+
+      <div class="footer-newsletter">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-6">
+              <h4>Prenumerera på Vårt Nyhetsbrev</h4>
+              <p>Registrera dig för vårt nyhetsbrev och få de senaste nyheterna om våra produkter och tjänster!</p>
+              <form action="forms/newsletter.php" method="post" class="php-email-form">
+                <div class="newsletter-form">
+                  <input type="email" name="email" placeholder="Din e-post" required>
+                  <input type="submit" value="Prenumerera">
+                </div>
+                <div class="loading">Laddar</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Din prenumerationsförfrågan har skickats. Tack!</div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="d-flex align-items-center">
+              <span class="sitename">DUUP</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>Exempelvägen 12</p>
+              <p>123 45 Stockholm</p>
+              <p class="mt-3"><strong>Telefon:</strong> <span>+46 123 456 78</span></p>
+              <p><strong>E-post:</strong> <span>info@duup.se</span></p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Nyckellänkar</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Hem</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Om Oss</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Tjänster</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Användarvillkor</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Våra Tjänster</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Webbdesign</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Webbutveckling</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Produktledning</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Marknadsföring</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-12">
+            <h4>Följ Oss</h4>
+            <p>Håll dig uppdaterad med våra senaste nyheter och erbjudanden på sociala medier.</p>
+            <div class="social-links d-flex">
+              <a href="https://twitter.com/duup" target="_blank"><i class="bi bi-twitter"></i></a>
+              <a href="https://facebook.com/duup" target="_blank"><i class="bi bi-facebook"></i></a>
+              <a href="https://instagram.com/duup" target="_blank"><i class="bi bi-instagram"></i></a>
+              <a href="https://linkedin.com/company/duup" target="_blank"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container copyright text-center mt-4">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">DUUP</strong> <span>Alla Rättigheter
+            Förbehållna</span>
+        </p>
+        <div class="credits">
+          <!-- Alla länkar i sidfoten bör förbli intakta. -->
+          <!-- Du kan ta bort länkarna endast om du har köpt pro-versionen. -->
+          <!-- Licensinformation: https://bootstrapmade.com/license/ -->
+          <!-- Köp pro-versionen med fungerande PHP/AJAX kontaktformulär: [buy-url] -->
+          Designad av <a href="https://duup.se/">DUUP</a>
+        </div>
+      </div>
+
+    </footer>
+
+    <!-- Scroll Till Toppen -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Förladdare -->
+    <div id="preloader"></div>
+
+    <!-- Leverantör JS Filer -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Huvud JS Fil -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
