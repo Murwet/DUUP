@@ -512,7 +512,6 @@ h6 {
   padding-bottom: 50px;
   position: relative;
 }
-
 .footer .footer-newsletter {
   background-color: color-mix(in srgb, var(--heading-color), transparent 95%);
   padding: 50px 0;
@@ -531,31 +530,34 @@ h6 {
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
   display: flex;
+  justify-content: space-between; /* Se till att fälten ligger på en rad */
   transition: 0.3s;
-  border-radius: 50px;
+  border-radius: 10px; /* Minska rundningen för en modernare look */
 }
 
 .footer .footer-newsletter .newsletter-form:focus-within {
   border-color: var(--accent-color);
 }
 
-.footer .footer-newsletter .newsletter-form input[type=email] {
+.footer .footer-newsletter .newsletter-form input {
   border: 0;
-  padding: 4px;
-  width: 100%;
+  padding: 10px;
+  margin-right: 10px; /* Utrymme mellan fälten */
+  width: 48%; /* Justera bredden så att de får plats på en rad */
   background-color: color-mix(in srgb, var(--background-color), transparent 50%);
   color: var(--default-color);
 }
 
-.footer .footer-newsletter .newsletter-form input[type=email]:focus-visible {
+.footer .footer-newsletter .newsletter-form input[type=email]:focus-visible,
+.footer .footer-newsletter .newsletter-form input[type=tel]:focus-visible {
   outline: none;
 }
 
 .footer .footer-newsletter .newsletter-form input[type=submit] {
   border: 0;
   font-size: 16px;
-  padding: 0 20px;
-  margin: -7px -8px -7px 0;
+  padding: 10px 20px;
+  margin-top: 0; /* Ingen marginal ovanför knappen */
   background: var(--accent-color);
   color: var(--contrast-color);
   transition: 0.3s;
@@ -565,6 +567,7 @@ h6 {
 .footer .footer-newsletter .newsletter-form input[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
+
 
 .footer .footer-top {
   padding-top: 50px;
@@ -948,25 +951,31 @@ section,
 # Clients Section
 --------------------------------------------------------------*/
 .clients {
-  padding: 12px 0;
+  padding: 8px 0; 
 }
 
 .clients .swiper {
-  padding: 10px 0;
+  padding: 8px 0; 
 }
 
 .clients .swiper-wrapper {
-  height: auto;
+  height: auto; 
+}
+
+.clients .swiper-slide {
+  max-width: 80%; 
 }
 
 .clients .swiper-slide img {
   transition: 0.3s;
-  padding: 0 10px;
+  padding: 0 5px; 
+  max-width: 80%; 
 }
 
 .clients .swiper-slide img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05); 
 }
+
 
 /*--------------------------------------------------------------
 # About Section
