@@ -1435,19 +1435,22 @@ section,
   flex-shrink: 0;
 }
 
+.team .team-member .pic img {
+  transition: ease-in-out 0.3s;
+  width: 100%; /* Se till att bilden fyller sin förälder */
+  height: auto; /* Bevarar bildens proportioner */
+  object-fit: cover; /* Beskär bilden för att passa in i en kvadratisk yta */
+  aspect-ratio: 1 / 1; /* Gör bilden kvadratisk */
+  border-radius: 50%; /* Behåller rund form */
+}
+
 /* .team .team-member .pic img {
   transition: ease-in-out 0.3s;
 }
    */
 
-   .team .team-member .pic img {
-    transition: ease-in-out 0.3s;
-    width: 100%; /* Se till att bilden fyller sin förälder */
-    height: auto; /* Bevarar bildens proportioner */
-    object-fit: cover; /* Beskär bilden för att passa in i en kvadratisk yta */
-    aspect-ratio: 1 / 1; /* Gör bilden kvadratisk */
-    border-radius: 50%; /* Behåller rund form */
-  }
+
+
   
 
 .team .team-member:hover {
