@@ -1419,6 +1419,9 @@ section,
   padding: 30px;
   height: 100%;
 }
+.team{
+    --background-color: #f5f6f8;
+}
 
 @media (max-width: 468px) {
   .team .team-member {
